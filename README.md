@@ -22,14 +22,6 @@ No app do Claude (aba Code), vá em Plugins → Adicionar → Adicionar marketpl
 
 Também dá para pedir para o próprio Claude: "Adicione o marketplace fabricadeasas/claude-plugins, instale o plugin fabrica-de-asas e ligue a atualização automática dele."
 
-## Já usava o endereço antigo?
-
-Até novembro de 2026 o catálogo ficava em `fabricadeasas/claude-code-for-everyone`. Ele continua funcionando e os plugins instalados por lá continuam se atualizando, mas plugins novos só entram aqui.
-
-Para trocar, peça ao Claude: "troque o catálogo da Fábrica de Asas para o endereço novo". O plugin `fabrica-de-asas` sabe fazer a troca: os plugins instalados continuam ligados e a atualização automática é mantida.
-
-Só rodar `/plugin marketplace add fabricadeasas/claude-plugins` não basta: o Claude Code recusa, porque o endereço antigo está registrado nas suas configurações com o mesmo nome (`fabricadeasas`). A troca precisa mudar esse registro primeiro.
-
 ## Como funciona por dentro
 
 ```
