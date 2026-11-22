@@ -1,0 +1,34 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fabricadeasas",
+  "owner": {
+    "name": "Fábrica de Asas",
+    "url": "https://fabricadeasas.com.br"
+  },
+  "metadata": {
+    "description": "Plugins da Fábrica de Asas para quem usa o Claude Code sem ser programador."
+  },
+  "plugins": [
+    {
+      "name": "fabrica-de-asas",
+      "displayName": "Claude Code for Everyone - Fábrica de Asas",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fabricadeasas/claude-code-for-everyone.git",
+        "path": "plugins/fabrica-de-asas"
+      },
+      "description": "Preferências do curso Superpoderes com IA: linguagem simples, boas práticas de engenharia e versões guardadas sem jargão.",
+      "category": "productivity"
+    },
+    {
+      "name": "fabrica-de-asas-no-ar",
+      "displayName": "Claude Code Go Live - Fábrica de Asas",
+      "source": {
+        "source": "github",
+        "repo": "fabricadeasas/claude-code-go-live"
+      },
+      "description": "Complemento para colocar no ar: salvar sem publicar, ambiente de testes, publicação em produção num pedido só, mostrando antes o que vai ao ar, trava de produção e o que conferir antes de abrir para o público.",
+      "category": "productivity"
+    }
+  ]
+}
