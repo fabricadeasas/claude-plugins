@@ -24,13 +24,11 @@ Também dá para pedir para o próprio Claude: "Adicione o marketplace fabricade
 
 ## Já usava o endereço antigo?
 
-Até novembro de 2026 o catálogo ficava em `fabricadeasas/claude-code-for-everyone`. Ele continua funcionando, mas as novidades do catálogo passam a sair daqui. Para trocar, rode uma vez:
+Até novembro de 2026 o catálogo ficava em `fabricadeasas/claude-code-for-everyone`. Ele continua funcionando e os plugins instalados por lá continuam se atualizando, mas plugins novos só entram aqui.
 
-```
-/plugin marketplace add fabricadeasas/claude-plugins
-```
+Para trocar, peça ao Claude: "troque o catálogo da Fábrica de Asas para o endereço novo". O plugin `fabrica-de-asas` sabe fazer a troca: os plugins instalados continuam ligados e a atualização automática é mantida.
 
-O catálogo tem o mesmo nome (`fabricadeasas`), então o Claude Code só troca o endereço: os plugins instalados continuam ligados e passam a se atualizar por aqui.
+Só rodar `/plugin marketplace add fabricadeasas/claude-plugins` não basta: o Claude Code recusa, porque o endereço antigo está registrado nas suas configurações com o mesmo nome (`fabricadeasas`). A troca precisa mudar esse registro primeiro.
 
 ## Como funciona por dentro
 
